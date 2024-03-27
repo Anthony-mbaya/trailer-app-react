@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base{
+    .trailer-container{
+        @apply border-4 flex flex-col bg-gray-500 w-full h-[100vh] py-5 px-6 items-center 
+    }
+    .search-bar{
+        @apply mx-auto flex lg:flex-row sm:flex-row md:flex-row gap-2 justify-between flex-col px-10 py-2 w-full
+    }
+    .input{
+        @apply px-4 py-2 font-bold rounded-xl w-full shadow-2xl
+    }
+    .search-btn{
+        @apply bg-gray-700 text-white font-bold py-2 px-3 rounded shadow-xl mx-auto cursor-pointer hover:bg-gray-800
+    }
+    .display{
+        @apply my-7 w-full flex justify-center items-center
+    }
+    .video{
+        @apply mx-auto shadow-2xl rounded-2xl  
+    }
+}
